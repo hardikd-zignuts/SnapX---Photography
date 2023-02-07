@@ -1,16 +1,14 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-$primary-color: #00BCFC;
-$secondary-color: #E2E2E2;
-
-
+$primary-color: #00bcfc;
+$secondary-color: #e2e2e2;
 
 @mixin transition-ease {
-    transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 // @mixin position-center {

@@ -1,7 +1,12 @@
-@import "config";
+@import "variables";
 @import "menu";
 @import "hero";
+@import "slider";
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  line-height: 1.2;
 }
