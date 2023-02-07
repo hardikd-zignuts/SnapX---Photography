@@ -1,6 +1,7 @@
 .slider-section {
   position: absolute;
-  top: 39rem;
+  top: 66vh;
+  // top: 39rem;
 }
 
 .slider-box {
@@ -20,9 +21,9 @@
   height: 140px;
   margin: 0px 9px;
 
-  &:hover{
+  &:hover {
     opacity: 0.8;
     cursor: pointer;
-    @include transition-ease;                                                                                                                                                                                                                   
+    @include transition-ease;
   }
 }
